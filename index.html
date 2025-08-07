@@ -744,18 +744,7 @@ body.dark-mode .login-3d-logo {
   </div>
   <script>
 
-(function() {
-  const lastUser = localStorage.getItem('last_logged_in_user');
-  if (
-    lastUser &&
-    lastUser !== "null" &&
-    lastUser !== "undefined" &&
-    lastUser.trim() !== "" &&
-    !window.location.search.includes('user=')
-  ) {
-    window.location.href = `jeeee.html?user=${encodeURIComponent(lastUser)}`;
-  }
-})();
+
 // ...rest of your code continues here...
     // --- Water Wave Mode Switcher ---
     // ... (all your original JS for mode switch, 3D, popup, etc) ...
