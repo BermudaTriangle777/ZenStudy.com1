@@ -316,7 +316,7 @@ index:99999; border: none; background:#fff;"></iframe>
     let currentUser = getQueryParam('user');
     if (!currentUser) {
       alert("No user specified. Redirecting to login.");
-      window.location.href = "x1.html";
+      window.location.href = index.html";
     }
 
     // --- Elements ---
@@ -494,7 +494,7 @@ index:99999; border: none; background:#fff;"></iframe>
     logoutBtn.onclick = function() {
   localStorage.clear(); // This clears ALL localStorage keys!
   if (firebase.auth) firebase.auth().signOut();
-  window.location.href = "x1.html";
+  window.location.href = "index.html";
 };
     // --- On load ---
     loadUserData();
